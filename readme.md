@@ -26,7 +26,7 @@ The starting place for building a website on the WordPress platform.
 └── vendor
 ```
 
-- In order not to expose sensitive files in the webroot, we move what's required into a `html/` directory including the vendor'd `wp/` source, and the `wp-content` source.
+- In order not to expose sensitive files in the webroot, we move what's required into a `html/` directory including the vendor's `wp/` source, and the `wp-content` source.
 - `wp-content` has been named `app` to better reflect its contents. It contains application code and not just "static content". It also matches up with other frameworks such as Symfony and Rails.
 - `wp-config.php` remains in the `web/` because it's required by WordPress, but it only acts as a loader. The actual configuration files have been moved to `config/` for better separation.
 - `vendor/` is where the Composer managed dependencies are installed to.
