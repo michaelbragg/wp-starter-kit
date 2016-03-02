@@ -18,4 +18,6 @@ mysql -u root -proot -e "create database wordpress"
 php /usr/local/bin/composer.phar update --working-dir="/var/www/wordpress.dev" --no-interaction
 # Node
 npm -v
-#npm install --prefix /var/www/wordpress.dev
+
+# Run scripts to provision theme(s)
+#./html/app/themes/theme-start-kit/scripts/provision.sh
