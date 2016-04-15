@@ -25,6 +25,11 @@
     RewriteRule "(^|/)\." - [F]
 </IfModule>
 
+<Files .htaccess>
+	order allow,deny
+	deny from all
+</Files>
+
 # ---------------------------------------------------------------------
 # | WordPress                                                       |
 # ---------------------------------------------------------------------
@@ -154,19 +159,9 @@
 
 FileETag None
 
-# BEGIN SF Move Login
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    RewriteRule ^wp/login/?$ wp/wp-login.php [QSA,L]
-    RewriteRule ^wp/postpass/?$ wp/wp-login.php?action=postpass [QSA,L]
-    RewriteRule ^wp/logout/?$ wp/wp-login.php?action=logout [QSA,L]
-    RewriteRule ^wp/lostpassword/?$ wp/wp-login.php?action=lostpassword [QSA,L]
-    RewriteRule ^wp/resetpass/?$ wp/wp-login.php?action=resetpass [QSA,L]
-    RewriteRule ^wp/register/?$ wp/wp-login.php?action=register [QSA,L]
-</IfModule>
-# END SF Move Login
-
+# #####################################################################
+# # WordPress                                                         #
+# #####################################################################
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
