@@ -62,7 +62,7 @@ define( 'AUTOMATIC_UPDATER_DISABLED', false );
 define( 'DISABLE_WP_CRON', true );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
-define( 'WP_POST_REVISIONS', 3 );
+define( 'WP_POST_REVISIONS', 5 );
 define( 'AUTOSAVE_INTERVAL', 120 );
 define( 'WP_MEMORY_LIMIT', '96M' );
 define( 'WP_DEFAULT_THEME', getenv('DEFAULT_THEME') ?: 'twentysixteen' );

@@ -9,6 +9,8 @@ error_log
 
 .env
 /shared/*
+access.log
+error.log
 
 ## Development
 
