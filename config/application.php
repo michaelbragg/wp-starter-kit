@@ -33,6 +33,12 @@ define( 'WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR );
 define( 'WP_CONTENT_URL', WP_HOME . CONTENT_DIR );
 
 /**
+ * Custom MU Plugins
+ */
+define( 'WPMU_PLUGIN_DIR', $webroot_dir . CONTENT_DIR .'/plugins-mu' );
+define( 'WPMU_PLUGIN_URL', WP_CONTENT_URL . '/plugins-mu' );
+
+/**
  * DB settings
  */
 define( 'DB_NAME', getenv('DB_NAME') );
@@ -62,7 +68,7 @@ define( 'AUTOMATIC_UPDATER_DISABLED', false );
 define( 'DISABLE_WP_CRON', true );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
-define( 'WP_POST_REVISIONS', 5 );
+define( 'WP_POST_REVISIONS', 3 );
 define( 'AUTOSAVE_INTERVAL', 120 );
 define( 'WP_MEMORY_LIMIT', '96M' );
 define( 'WP_DEFAULT_THEME', getenv('DEFAULT_THEME') ?: 'twentysixteen' );
