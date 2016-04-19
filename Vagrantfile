@@ -17,16 +17,16 @@ Vagrant.configure(2) do |config|
   												"/vagrant/html/media",
   												owner: "www-data",
   												group: "www-data",
-  												mount_options: ["dmode=755,fmode=664"]
+  												mount_options: ["dmode=775,fmode=664"]
 
   config.vm.hostname = "wordpress.local"
   config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
   config.ssh.forward_agent = true
   config.ssh.insert_key = false
 
-  config.vm.network "private_network", ip: "192.168.33.100"
+  config.vm.network "private_network", ip: "192.168.33.66"
   config.hostsupdater.aliases = ["www.wordpress.local"]
 
-  config.vm.provision "shell", path: "scripts/provision.sh"
+  config.vm.provision "shell", path: "scripts/vagrant-provision.sh"
 
 end
