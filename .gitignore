@@ -39,11 +39,11 @@ html/app/languages/*
 ### Plugins
 html/app/db.php
 html/app/plugins/*
-html/app/mu-plugins/*
+html/app/plugins-mu/*
 
 #### White-list Plugins
 !html/app/plugins/index.php
-!html/app/mu-plugins/index.php
+!html/app/plugins-mu/index.php
 
 ### Themes
 .sass-cache

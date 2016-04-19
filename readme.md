@@ -14,8 +14,8 @@ The starting place for building a website on the WordPress platform.
 │       └── production.php
 ├── html
 │   ├── app
-│   │   ├── mu-plugins
 │   │   ├── plugins
+│   │   ├── plugins-mu
 │   │   ├── themes
 │   │   └── languages
 │   ├── media
