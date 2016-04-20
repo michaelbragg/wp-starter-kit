@@ -17,6 +17,8 @@ error.log
 bin
 .vagrant
 vendor/*
+# Remove the following line if you require more control over dependency versions
+composer.lock
 
 ## NodeJS
 
