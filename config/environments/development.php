@@ -8,5 +8,5 @@ define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'SCRIPT_DEBUG', true );
 
-#define('WP_PROXY_HOST', 'proxy');
-#define('WP_PROXY_PORT', '3128');
+#define( 'WP_PROXY_HOST', 'proxy' );
+#define( 'WP_PROXY_PORT', '3128' );
