@@ -12,9 +12,10 @@ The starting place for building a website on the WordPress platform.
 
 ## Dependencies
 
-- GIT
-- VirtualBox
-- Vagrant
+- [GIT](https://git-scm.com/downloads)
+- [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
+ - [Hosts Updater](https://github.com/cogitatio/vagrant-hostsupdater)
 
 ## On-boarding – Getting Started
 
