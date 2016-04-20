@@ -121,6 +121,7 @@ function wp_install_defaults( $user_id ) {
 		'use_smiles'										=> 0, // False
 		'default_comment_status'				=> 'closed', // No comments
 		'default_ping_status'						=> 'closed', // No ping
+		'default_pingback_flag'					=> '',
 		'date_format'										=> 'F j, Y',
 		'time_format'										=> 'g:i a',
 		'links_updated_date_format'			=> 'F j, Y g:i a',
