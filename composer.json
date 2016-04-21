@@ -24,6 +24,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/WebDevStudios/CMB2.git"
+    },
+		{
+      "type": "vcs",
+      "url": "https://github.com/thoughtsideas/ti-security.git"
     }
   ],
   "require": {
@@ -44,7 +48,8 @@
 		"wpackagist-plugin/wp-mail-smtp": "0.9.x",
 		"wpackagist-plugin/w3-total-cache": "0.9.x",
 		"wpackagist-plugin/backwpup": "3.3.x",
-		"webdevstudios/cmb2": "2.2.x"
+		"webdevstudios/cmb2": "2.2.x",
+		"thoughtsideas/ti-security": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "*",
