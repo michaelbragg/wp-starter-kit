@@ -24,9 +24,9 @@ Vagrant.configure(2) do |config|
   config.ssh.forward_agent = true
   config.ssh.insert_key = false
 
-  config.vm.network "private_network", ip: "192.168.33.66"
+  config.vm.network "private_network", ip: "192.168.33.55"
   config.hostsupdater.aliases = ["www.wordpress.local"]
 
-  config.vm.provision "shell", path: "scripts/vagrant-provision.sh"
+  config.vm.provision "shell", path: "scripts/provision-vagrant.sh"
 
 end
