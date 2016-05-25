@@ -46,6 +46,18 @@ vagrant up
 
 Visit [http://www.wordpress.local](http://www.wordpress.local/) to view the development site.
 
+### Accessing the MySQL database
+
+Vagrant's MySQL database can be accessed through SSH using the following credentials:
+
+- SSH Host: 192.168.33.55
+- SSH User: vagrant
+- SSH Password: vagrant
+- MySQL Host: 127.0.0.1
+- MySQL User: root
+- MySQL Password: root
+- MySQL Database: wordpress
+
 ### Testing Your Changes
 
 Our test suite is run on every commit pushed to this repository.
