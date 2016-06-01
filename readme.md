@@ -50,7 +50,7 @@ Visit [http://www.wordpress.local](http://www.wordpress.local/) to view the deve
 
 Vagrant's MySQL database can be accessed through SSH using the following credentials:
 
-- SSH Host: 192.168.33.55
+- SSH Host: wordpress.local
 - SSH User: vagrant
 - SSH Password: vagrant
 - MySQL Host: 127.0.0.1
