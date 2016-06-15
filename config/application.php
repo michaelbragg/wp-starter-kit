@@ -72,6 +72,8 @@ define( 'WP_POST_REVISIONS', 3 );
 define( 'AUTOSAVE_INTERVAL', 120 );
 define( 'WP_MEMORY_LIMIT', '96M' );
 define( 'WP_DEFAULT_THEME', getenv( 'DEFAULT_THEME' ) ?: 'twentysixteen' );
+define( 'WPLANG', getenv( 'WPENV' ) ?: 'en_GB' );
+
 
 /**
  * Allow WordPress Multisite
