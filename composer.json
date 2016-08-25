@@ -28,27 +28,44 @@
 		{
       "type": "vcs",
       "url": "https://github.com/thoughtsideas/ti-security.git"
-    }
+    },
+    {
+			"type": "package",
+			"package": {
+				"name": "humanmade/hm-gtm",
+				"type": "wordpress-muplugin",
+				"version": "1.0",
+				"source": {
+					"url": "https://github.com/humanmade/hm-gtm.git",
+					"type": "vcs",
+					"reference": "origin/master"
+				},
+				"dist": {
+					"type": "zip",
+					"url": "https://github.com/humanmade/hm-gtm/archive/master.zip"
+				}
+			}
+		}
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.5.x",
-    "vlucas/phpdotenv": "2.2.x",
-    "composer/installers": "1.0.x",
-    "wpackagist-plugin/wordpress-seo": "3.1.x",
-    "wpackagist-plugin/wp-google-analytics": "1.4.x",
-    "wpackagist-plugin/google-sitemap-generator": "4.0.x",
-    "wpackagist-plugin/wp-robots-txt": "1.1.x",
-    "wpackagist-plugin/wp-security-audit-log": "2.4.x",
-    "wpackagist-plugin/brute-force-login-protection": "1.5.x",
-    "wpackagist-plugin/safe-redirect-manager": "1.7.x",
-    "wpackagist-plugin/post-type-archive-links": "1.3.x",
-    "wpackagist-plugin/admin-menu-manager": "1.0.x",
-    "wpackagist-plugin/custom-contact-forms": "7.8.x",
-		"wpackagist-plugin/wp-mail-smtp": "0.9.x",
-		"wpackagist-plugin/w3-total-cache": "0.9.x",
-		"wpackagist-plugin/backwpup": "3.3.x",
-		"webdevstudios/cmb2": "2.2.x",
+    "johnpbloch/wordpress": "*",
+    "vlucas/phpdotenv": "*",
+    "composer/installers": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/wp-google-analytics": "*",
+    "wpackagist-plugin/wp-robots-txt": "*",
+    "wpackagist-plugin/wp-security-audit-log": "*",
+    "wpackagist-plugin/brute-force-login-protection": "*",
+    "wpackagist-plugin/safe-redirect-manager": "*",
+    "wpackagist-plugin/post-type-archive-links": "*",
+    "wpackagist-plugin/admin-menu-manager": "*",
+    "wpackagist-plugin/custom-contact-forms": "*",
+		"wpackagist-plugin/wp-mail-smtp": "*",
+		"wpackagist-plugin/w3-total-cache": "*",
+		"wpackagist-plugin/backwpup": "*",
+		"webdevstudios/cmb2": "*",
+		"humanmade/hm-gtm": "1.0",
 		"thoughtsideas/ti-security": "dev-master"
   },
   "require-dev": {
@@ -65,7 +82,9 @@
     "wpackagist-plugin/theme-check": "*",
     "wpackagist-plugin/rewrite-rules-inspector": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/vip-scanner": "*"
+    "wpackagist-plugin/vip-scanner": "*",
+    "wpackagist-plugin/wp-crontrol": "*",
+    "wpackagist-plugin/wa11y": "*"
   },
   "extra": {
     "wordpress-install-dir": "html/wp",
