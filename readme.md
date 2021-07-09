@@ -1,3 +1,5 @@
+⚠️ Archived: 2021-07-09 ⚠️
+
 # WordPress Starter Kit
 
 The starting place for building a website on the WordPress platform.
